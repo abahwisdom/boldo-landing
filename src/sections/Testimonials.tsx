@@ -29,7 +29,7 @@ export default function Testimonials() {
   ]
 
   return (
-    <div className=" mx-auto px-12 py-20 mt-10 bg-primary">
+    <div className=" mx-auto px-12 py-20 mt-24 bg-primary">
       <div className="container mx-auto">
         <div className="flex justify-between items-end mb-14 text-white">
           <h1 className="text-[48px] manrope">

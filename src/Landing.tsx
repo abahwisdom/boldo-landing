@@ -1,4 +1,6 @@
 import Benefits from "./sections/Benefits";
+import Blog from "./sections/Blog";
+import Connect from "./sections/Connect";
 import Hero from "./sections/Hero";
 import Navbar from "./sections/Navbar"
 import Services from "./sections/Services";
@@ -12,6 +14,8 @@ export default function Landing() {
         <Services/>
         <Benefits/>
         <Testimonials/>
+        <Connect/>
+        <Blog/>
     </div>
   );
 }

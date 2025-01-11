@@ -18,7 +18,7 @@ export default function Benefits() {
     },
   ]
   return (
-    <div className="container mx-auto px-12 mt-10">
+    <div className="container mx-auto px-12 mt-24">
       {/* first benefit */}
       <div className="flex flex-wrap gap-40 justify-center">
         <Image src='/images/benefit-1.png' alt="benefit-1" width={494} height={610} />
