@@ -27,7 +27,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={` ${openSans.variable} ${manrope.variable}  antialiased`}
+        className={` ${openSans.variable} ${manrope.variable}  antialiased bg-white`}
       >
         {children}
       </body>
