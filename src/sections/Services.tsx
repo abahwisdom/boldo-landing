@@ -23,7 +23,7 @@ export default function Services() {
     ]
 
     return (
-        <div className=" mx-auto px-8 py-20 mt-10 bg-primary text-white">
+        <div className=" mx-auto px-12 py-20 mt-10 bg-primary text-white">
             <div className="container mx-auto">
                 <p className="text-xl text-[#f1f1f1] text-center pb-2">Our services</p>
                 <h1 className="text-[48px] manrope text-center w-[75%] mx-auto">
