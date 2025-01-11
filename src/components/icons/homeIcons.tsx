@@ -70,6 +70,106 @@ export const RightArrowIcon = (props: SVGProps<SVGSVGElement>) => (
     </svg>
 );
 
+export const CheckIcon = (props: SVGProps<SVGSVGElement>) => (
+  <svg
+      width={36}
+      height={36}
+      viewBox="0 0 36 36"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+      {...props}
+    >
+      <circle cx={18} cy={18} r={18} fill="#0A2640" />
+      <path
+        d="M26 12L15 23l-5-5"
+        stroke="#fff"
+        strokeWidth={2}
+        strokeLinecap="round"
+        strokeLinejoin="round"
+      />
+    </svg>
+);
+
+export const BenefitIcon1 = (props: SVGProps<SVGSVGElement>) => (
+  <svg
+      width={28}
+      height={28}
+      viewBox="0 0 28 28"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+      {...props}
+    >
+      <path
+        d="M22.24 14.24a6.003 6.003 0 00-8.49-8.49L7 12.5V21h8.5l6.74-6.76zM18 10L4 24M19.5 17H11"
+        stroke={"#0A2640"}
+        strokeWidth={2}
+        strokeLinecap="round"
+        strokeLinejoin="round"
+        className='group-hover:stroke-white'
+      />
+    </svg>
+);
+
+export const BenefitIcon2 = (props: SVGProps<SVGSVGElement>) => (
+  <svg
+      width={25}
+      height={25}
+      viewBox="0 0 25 25"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+      {...props}
+    >
+      <g
+        clipPath="url(#clip0_604_1519)"
+        stroke="#0A2640"
+        strokeWidth={2}
+        strokeLinecap="round"
+        strokeLinejoin="round"
+        className='group-hover:stroke-white'
+      >
+        <path d="M1.775 12.654s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z" />
+        <path d="M12.775 15.654a3 3 0 100-6 3 3 0 000 6z" />
+      </g>
+      <defs>
+        <clipPath id="clip0_604_1519">
+          <path
+            fill="#fff"
+            transform="translate(.775 .654)"
+            d="M0 0H24V24H0z"
+          />
+        </clipPath>
+      </defs>
+    </svg>
+);
+
+export const BenefitIcon3 = (props: SVGProps<SVGSVGElement>) => (
+  <svg
+      width={24}
+      height={24}
+      viewBox="0 0 24 24"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+      {...props}
+    >
+      <g
+        clipPath="url(#clip0_604_1525)"
+        stroke="#0A2640"
+        strokeWidth={2}
+        strokeLinecap="round"
+        strokeLinejoin="round"
+        className='group-hover:stroke-white'
+        
+      >
+        <path d="M12 17a5 5 0 100-10 5 5 0 000 10zM12 1v2M12 21v2M4.22 4.22l1.42 1.42M18.36 18.36l1.42 1.42M1 12h2M21 12h2M4.22 19.78l1.42-1.42M18.36 5.64l1.42-1.42" />
+      </g>
+      <defs>
+        <clipPath id="clip0_604_1525">
+          <path fill="#fff" d="M0 0H24V24H0z" />
+        </clipPath>
+      </defs>
+    </svg>
+);
+
 export const HeroImage = (props: SVGProps<SVGSVGElement>) => (
   <svg
       width={494}
