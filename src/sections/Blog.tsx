@@ -28,8 +28,8 @@ export default function Blog() {
     ]
 
     return (
-        <div className=" mx-auto px-12 py-10 mt-10">
-            <div className="container mx-auto">
+        <div className=" mx-auto py-10 mt-10">
+            <div className="container px-12 mx-auto">
                 <p className="text-xl text-projectGray text-center pb-2">Our Blog</p>
                 <h1 className="text-[48px] manrope text-center max-w-[960px] mx-auto">
                     Value proposition accelerator product management venture

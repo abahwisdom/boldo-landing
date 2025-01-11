@@ -4,6 +4,7 @@ import Connect from "./sections/Connect";
 import Hero from "./sections/Hero";
 import Navbar from "./sections/Navbar"
 import Services from "./sections/Services";
+import Subscribe from "./sections/Subscribe";
 import Testimonials from "./sections/Testimonials";
 
 export default function Landing() {
@@ -16,6 +17,7 @@ export default function Landing() {
         <Testimonials/>
         <Connect/>
         <Blog/>
+        <Subscribe/>
     </div>
   );
 }

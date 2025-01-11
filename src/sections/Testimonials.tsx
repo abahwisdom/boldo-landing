@@ -29,8 +29,8 @@ export default function Testimonials() {
   ]
 
   return (
-    <div className=" mx-auto px-12 py-20 mt-24 bg-primary">
-      <div className="container mx-auto">
+    <div className=" mx-auto py-20 mt-24 bg-primary">
+      <div className="container mx-auto px-12">
         <div className="flex justify-between items-end mb-14 text-white">
           <h1 className="text-[48px] manrope">
           An enterprise template to ramp <br/> up your company website
