@@ -21,7 +21,7 @@ export default function Navbar() {
 
   return (
     <div className="w-full top-0">
-      <nav className="container relative flex flex-wrap items-center justify-between py-4 mt-6 px-12 mx-auto lg:justify-between">
+      <nav className="container relative flex flex-wrap md:flex-nowrap items-center justify-between py-4 mt-6 md:px-12 px-5 mx-auto lg:justify-between">
         {/* Logo  */}
         <BoldoLogo />
 

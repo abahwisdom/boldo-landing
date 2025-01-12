@@ -18,7 +18,7 @@ export default function Footer() {
 
   return (
     <div className="relative">
-      <div className="container mx-auto px-12 py-10 mt-10">
+      <div className="container mx-auto md:px-12 px-5 py-10 mt-10">
         <div className="grid grid-cols-1 gap-10 pt-10 mt-5 lg:grid-cols-5">
           <div className="lg:col-span-2">
             <BoldoLogo/>
@@ -31,7 +31,7 @@ export default function Footer() {
           </div>
 
           <div>
-            <div className="flex flex-wrap w-full text-xl">
+            <div className="flex flex-col w-full text-xl">
             <div className="max-w-md mt-2 font-bold">
               Landings
             </div>
@@ -47,7 +47,7 @@ export default function Footer() {
             </div>
           </div>
           <div>
-            <div className="flex flex-wrap w-full text-xl">
+            <div className="flex flex-col w-full text-xl">
             <div className="max-w-md mt-2 font-bold">
               Company
             </div>
@@ -73,7 +73,7 @@ export default function Footer() {
             </div>
           </div>
           <div>
-            <div className="flex flex-wrap w-full text-xl">
+            <div className="flex flex-col w-full text-xl">
             <div className="max-w-md mt-2 font-bold">
               Resources
             </div>

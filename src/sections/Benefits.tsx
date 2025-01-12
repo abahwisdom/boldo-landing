@@ -18,13 +18,13 @@ export default function Benefits() {
     },
   ]
   return (
-    <div className="container mx-auto px-12 mt-24">
+    <div className="container mx-auto md:px-12 px-5 mt-24">
       {/* first benefit */}
-      <div className="flex flex-wrap gap-40 justify-center">
-        <Image src='/images/benefit-1.png' alt="benefit-1" width={494} height={610} />
+      <div className="flex flex-wrap md:flex-nowrap md:gap-40 gap-10 justify-center">
+        <Image src='/images/benefit-1.png' alt="benefit-1" width={494} height={610} className="object-contain" />
         <div className="flex items-center">
           <div className="max-w-[490px]">
-            <h1 className="text-[36px] manrope mt-[-36px]">
+            <h1 className="md:text-[36px] text-[32px] manrope md:mt-[-36px]">
             We connect our customers with the best, and help them keep up-and stay open.
             </h1>
             <div className="flex flex-col gap-4 my-4">
@@ -44,10 +44,10 @@ export default function Benefits() {
       </div>
 
       {/* second benefit */}
-      <div className="flex flex-wrap gap-40 justify-center">
+      <div className="flex flex-wrap md:flex-nowrap md:gap-40 gap-10 justify-center mt-8 md:mt-12">
         <div className="flex items-center">
         <div className="max-w-[490px]">
-            <h1 className="text-[36px] manrope mt-[-46px]">
+            <h1 className="md:text-[36px] text-[32px] manrope md:mt-[-46px]">
             We connect our customers with the best, and help them keep up-and stay open.
             </h1>
             <div className="flex flex-col gap-4 my-4">
@@ -62,7 +62,7 @@ export default function Benefits() {
             </div>
           </div>
         </div>
-        <Image src='/images/benefit-2.png' alt="benefit-2" width={444} height={610} />
+        <Image src='/images/benefit-2.png' alt="benefit-2" width={444} height={610} className="object-contain" />
       </div>
       
     </div>

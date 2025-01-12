@@ -24,12 +24,12 @@ export default function Services() {
 
     return (
         <div className=" mx-auto py-20 mt-10 bg-primary text-white">
-            <div className="container mx-auto px-12">
+            <div className="container mx-auto md:px-12 px-5">
                 <p className="text-xl text-[#f1f1f1] text-center pb-2">Our services</p>
-                <h1 className="text-[48px] manrope text-center w-[75%] mx-auto">
+                <h1 className="md:text-[48px] md:text-[36px] text-[32px] manrope text-center md:w-[75%] mx-auto">
                     Handshake infographic mass market crowdfunding iteration.
                 </h1>
-                <div className="flex gap-24 justify-center mt-16">
+                <div className="flex flex-wrap md:flex-nowrap gap-24 justify-center mt-16">
                   {
                     servicesList.map((service, index)=>
                         <div key={index}>

@@ -4,16 +4,16 @@ import React from "react";
 
 export default function Subscribe() {
   return (
-    <div className="container mx-auto px-12 py-10 mt-20 ">
-      <div className="relative items-center w-full mx-auto text-white bg-primary px-12 py-12 rounded-xl">
+    <div className="container mx-auto md:px-12 px-5 py-10 mt-20 ">
+      <div className="relative items-center w-full mx-auto text-white bg-primary md:px-12 px-5 py-12 rounded-xl overflow-hidden">
         <div className="text-center relative z-20">
-          <h1 className="text-[48px] manrope text-center max-w-[716px] mx-auto">
+          <h1 className="md:text-[48px] text-[36px] manrope text-center max-w-[716px] mx-auto">
             An enterprise template to ramp up your company website
           </h1>
         </div>
-        <div className="flex justify-center mt-12 relative gap-6 z-20">
+        <div className="flex flex-wrap md:flex-nowrap justify-center mt-12 relative gap-6 z-20">
           <Input className="rounded-full bg-white text-primary h-[60px] w-[360px] px-6 !text-xl" placeholder="Your email address"/>
-          <Button variant={"ghost"} className="bg-[#65E4A3] text-primary text-xl font-bold">Start Now</Button>
+          <Button variant={"ghost"} className="bg-[#65E4A3] text-primary text-xl font-bold w-full md:w-auto">Start Now</Button>
         </div>
 
         {/* top right bg mask */}

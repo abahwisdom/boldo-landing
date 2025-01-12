@@ -29,12 +29,12 @@ export default function Blog() {
 
     return (
         <div className=" mx-auto py-10 mt-10">
-            <div className="container px-12 mx-auto">
+            <div className="container md:px-12 px-5 mx-auto">
                 <p className="text-xl text-projectGray text-center pb-2">Our Blog</p>
-                <h1 className="text-[48px] manrope text-center max-w-[960px] mx-auto">
+                <h1 className="md:text-[48px] text-[36px] manrope text-center max-w-[960px] mx-auto">
                     Value proposition accelerator product management venture
                 </h1>
-                <div className="flex gap-12 justify-center mt-16">
+                <div className="flex flex-wrap md:flex-nowrap gap-12 justify-center mt-16">
                   {
                     blogsList.map((blog, index)=>
                         <div key={index} className="flex-1">

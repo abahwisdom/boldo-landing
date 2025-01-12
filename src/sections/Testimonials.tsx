@@ -30,9 +30,9 @@ export default function Testimonials() {
 
   return (
     <div className=" mx-auto py-20 mt-24 bg-primary">
-      <div className="container mx-auto px-12">
+      <div className="container mx-auto md:px-12 px-5">
         <div className="flex justify-between items-end mb-14 text-white">
-          <h1 className="text-[48px] manrope">
+          <h1 className="md:text-[48px] text-[36px] manrope">
           An enterprise template to ramp <br/> up your company website
           </h1>
           <div className="flex gap-4">
@@ -40,7 +40,7 @@ export default function Testimonials() {
             <ArrowRightIcon className="text-primary w-16 h-16 bg-white p-4 rounded-full cursor-pointer"/>
           </div>
         </div>
-        <div className="flex gap-4 justify-between gap-12">
+        <div className="flex flex-wrap md:flex-nowrap gap-4 justify-between gap-12">
         {
           testimonialList.map((testimonial, index)=>
             <div key={index} className="flex flex-col flex-1 justify-between w-full h-full bg-white p-10 rounded-[12px] drop-shadow-md">
